@@ -27,7 +27,7 @@ export const generateTripPDF = async (tripPlan: TripPlan, profileName: string) =
   };
 
   // Header
-  pdf.setFillColor(59, 130, 246); // Blue background
+  pdf.setFillColor(34, 197, 94); // Blue background
   pdf.rect(0, 0, pageWidth, 40, 'F');
   
   pdf.setTextColor(255, 255, 255);
