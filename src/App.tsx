@@ -29,7 +29,7 @@ function App() {
                   <Route path="/settings" element={<Settings />} />
                 </Routes>
               </Layout>
-              <Footer /> {/* ✅ Footer added below the layout */}
+              <Footer /> 
             </div>
           </Router>
         </TripProvider>
