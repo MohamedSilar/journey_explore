@@ -26,7 +26,7 @@ export const useProfile = () => {
 
 export const ProfileProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [profile, setProfile] = useState<ProfileData>({
-    name: 'Journey Explorer',
+    name: 'Mohamed Silar',
     email: 'explorer@journey.com',
     avatar: '',
     bio: 'Travel Enthusiast & Adventure Seeker',
