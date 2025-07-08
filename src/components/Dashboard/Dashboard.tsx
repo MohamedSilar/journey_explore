@@ -21,7 +21,7 @@ const Dashboard: React.FC = () => {
       budget: 'luxury',
       travelType: 'solo',
       createdAt: new Date('2024-01-10'),
-      image: 'https://images.pexels.com/photos/161401/fushimi-inari-taisha-shrine-kyoto-japan-161401.jpeg?auto=compress&cs=tinysrgb&w=300'
+      image: 'https://images.pexels.com/photos/237211/pexels-photo-237211.jpeg?auto=compress&cs=tinysrgb&w=300'
     },
     {
       id: '3',
