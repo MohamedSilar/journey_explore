@@ -10,7 +10,7 @@ import CreateTrip from './components/TripPlanner/CreateTrip';
 import TripResults from './components/TripPlanner/TripResults';
 import Profile from './components/Profile/Profile';
 import Settings from './components/Settings/Settings';
-import Footer from './components/Footer'; // ✅ Import the Footer here
+import Footer from './components/Footer';
 
 function App() {
   return (
