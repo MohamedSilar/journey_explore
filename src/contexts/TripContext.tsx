@@ -60,7 +60,7 @@ export const TripProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     },
     {
       id: '3',
-      destination: 'Rajasthan, India',
+      destination: 'Tamil Nadu, India',
       days: 10,
       budget: 'cheap',
       travelType: 'friends',
