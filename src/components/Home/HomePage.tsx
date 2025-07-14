@@ -91,24 +91,24 @@ const HomePage: React.FC = () => {
         </div>
       </div>
 
-      {/* CTA Section */}
-      <div className="py-16 bg-gradient-to-r from-blue-600 to-indigo-600 dark:from-blue-700 dark:to-indigo-700">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <h2 className="text-3xl font-bold text-white mb-4">
-            Ready to Explore the World?
-          </h2>
-          <p className="text-xl text-blue-100 mb-8">
-            Start planning your perfect adventure with AI-powered recommendations
-          </p>
-          <Link
-            to="/create-trip"
-            className="bg-white text-blue-600 hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg"
-          >
-            Start Planning Now
-          </Link>
-        </div>
-      </div>
-    </div>
+    {/* CTA Section */}
+<div className="py-16 bg-black">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h2 className="text-3xl font-bold text-white mb-4">
+      Ready to Explore the World?
+    </h2>
+    <p className="text-xl text-gray-300 mb-8">
+      Start planning your perfect adventure with AI-powered recommendations
+    </p>
+    <Link
+      to="/create-trip"
+      className="bg-white text-black hover:bg-gray-100 px-8 py-4 rounded-lg text-lg font-semibold transition-all duration-200 transform hover:scale-105 shadow-lg"
+    >
+      Start Planning Now
+    </Link>
+  </div>
+</div>
+
   );
 };
 
